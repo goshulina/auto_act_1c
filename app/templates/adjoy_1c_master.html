@@ -1,0 +1,22 @@
+{% extends "bootstrap/base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+1С Помощник
+{% endblock %}
+
+
+{% block content %}
+<form class="form-start" method="POST" action="/adjoy_1c_master">
+        <h2 class="form-start-heading">Ввод параметров запуска </h2>
+         {{ form.hidden_tag() }}
+        {{ wtf.form_field(form.days_to_parse) }}
+    <h8>Выберете режим работы</h8>
+    {{ wtf.form_field(form.parsing_buh) }}
+    {{ wtf.form_field(form.parsing) }}
+    {{ wtf.form_field(form.buh) }}
+        <button class="btn btn-lg" type="submit">Запустить</button>
+
+    </form>
+
+{% endblock %}
