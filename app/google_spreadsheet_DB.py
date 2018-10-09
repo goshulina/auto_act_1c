@@ -37,7 +37,7 @@ def list_maker():
     for i in sheet_data.get_all_records():
         all_scheta.append(i['Счет'])
     all_scheta = set(all_scheta)
-    if sheet_B.get_all_records()[0]['Счета клиентосов'] == 'Ебошь всех клиентосов сначала':
+    if sheet_B.get_all_records()[0]['Счета клиентосов'] == '<...>':
         sheet_B.update_cell(2, 1, '')
         for item in all_scheta:
             start_row = len(sheet_B.get_all_records()) + 2
