@@ -1,7 +1,7 @@
 # auto_act_1c
 Electronic document management 1С + Yandex.Balance
 
-Разработано в https://adjoy.ru/
+Разработано в [ADJOY](https://adjoy.ru/)
 
 Switch to flask version or script version
 
