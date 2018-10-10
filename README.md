@@ -1,6 +1,8 @@
 # auto_act_1c
 Electronic document management 1С + Yandex.Balance
 
+Разработано в [ADJOY](https://adjoy.ru/)
+
 Switch to flask version or script version
 
 Проблематика/задача: Условная компания продает услуги. Заносит информацию о транзакциях в Яндекс Баланс. 
